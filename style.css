@@ -1,0 +1,37 @@
+body {
+  background-color: #001f3f;
+  font-family: Arial, sans-serif;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.tab-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0074D9;
+}
+.tab {
+  flex: 1;
+  padding: 15px;
+  background: #0074D9;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.tab:hover {
+  background-color: #005fa3;
+}
+.tab-content {
+  flex: 1;
+  display: none;
+  padding: 20px;
+}
+.tab-content.active {
+  display: block;
+}
